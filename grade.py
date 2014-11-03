@@ -64,5 +64,5 @@ class Score(object):
         return s.getScore(user, password)
 
 if __name__ == '__main__':
-    result = Score.queryScore("20103550", "Uriel7742")
+    result = Score.queryScore("2010----", "----")
     print str(result).encode('utf-8')
